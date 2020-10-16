@@ -17,7 +17,6 @@
                 margin:0 1%;
                 float:left;
             }
-            
             .separator-container {
                 border:1px solid black;
                 width:2px;
@@ -29,7 +28,7 @@
                 width:2px;
                 height:2px;
                 margin-top:11px;
-                background-color:white;
+                background-color:chartreuse;
             }
             .h-lever {
                 border:1px solid black;
@@ -72,54 +71,54 @@
                 float:right;
                 background-color:white;
             }
-            
         </style>
     </head>
     <body>
-      <div id="clock-container">
+        <span id="time"></span>
+        <div id="clock-container">
         <div class="digit-container">
-              <div class="h-lever">
+              <div class="h-lever hours left-h twenty-h thirty-h fifty-h">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever hours left-h forty-h fifty-h">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever hours left-h ten-h twenty-h thirty-h forty-h">
                 
               </div>
-              <div class="m-lever">
+              <div class="m-lever hours twenty-h thirty-h forty-h fifty-h">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever hours left-h twenty-h">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever hours left-h ten-h thirty-h forty-h fifty-h">
                 
               </div>
-              <div class="b-lever">
+              <div class="b-lever hours left-h twenty-h thirty-h fifty-h">
                 
               </div>
         </div>
           <div class="digit-container">
-              <div class="h-lever">
+              <div class="h-lever hours two-h three-h five-h six-h seven-h eight-h nine-h zero-h">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever hours four-h five-h six-h eight-h nine-h zero-h">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever hours one-h two-h three-h four-h seven-h eight-h nine-h zero-h">
                 
               </div>
-              <div class="m-lever">
+              <div class="m-lever hours two-h three-h four-h five-h six-h eight-h nine-h">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever hours two-h six-h eight-h zero-h">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever hours one-h three-h four-h five-h six-h seven-h eight-h nine-h zero-h">
                 
               </div>
-              <div class="b-lever">
+              <div class="b-lever hours two-h three-h five-h six-h eight-h nine-h zero-h">
                 
               </div>
         </div>
@@ -128,48 +127,48 @@
             <div class="separator-dot"></div>
         </div>
           <div class="digit-container">
-              <div class="h-lever">
+              <div class="h-lever minutes left-m twenty-m thirty-m fifty-m">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever minutes left-m forty-m fifty-m">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever minutes left-m ten-m twenty-m thirty-m forty-m">
                 
               </div>
-              <div class="m-lever">
+              <div class="m-lever minutes twenty-m thirty-m forty-m fifty-m">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever minutes left-m twenty-m">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever minutes left-m ten-m thirty-m forty-m fifty-m">
                 
               </div>
-              <div class="b-lever">
+              <div class="b-lever minutes left-m twenty-m thirty-m fifty-m">
                 
               </div>
         </div>
           <div class="digit-container">
-              <div class="h-lever">
+              <div class="h-lever minutes two-m three-m five-m six-m seven-m eight-m nine-m zero-m">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever minutes four-m five-m six-m eight-m nine-m zero-m">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever minutes one-m two-m three-m four-m seven-m eight-m nine-m zero-m">
                 
               </div>
-              <div class="m-lever">
+              <div class="m-lever minutes two-m three-m four-m five-m six-m eight-m nine-m">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever minutes two-m six-m eight-m zero-m">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever minutes one-m three-m four-m five-m six-m seven-m eight-m nine-m zero-m">
                 
               </div>
-              <div class="b-lever">
+              <div class="b-lever minutes two-m three-m five-m six-m eight-m nine-m zero-m">
                 
               </div>
         </div>
@@ -178,61 +177,403 @@
             <div class="separator-dot"></div>
         </div>
           <div class="digit-container">
-              <div class="h-lever">
+              <div class="h-lever seconds left-s twenty-s thirty-s fifty-s">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever seconds left-s forty-s fifty-s">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever seconds left-s ten-s twenty-s thirty-s forty-s">
                 
               </div>
-              <div class="m-lever">
+              <div class="m-lever seconds twenty-s thirty-s forty-s fifty-s">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever seconds left-s twenty-s">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever seconds left-s ten-s thirty-s forty-s fifty-s">
                 
               </div>
-              <div class="b-lever">
+              <div class="b-lever seconds left-s twenty-s thirty-s fifty-s">
                 
               </div>
         </div>
           <div class="digit-container">
-              <div class="h-lever">
+              <div class="h-lever seconds two-s three-s five-s  six-s seven-s eight-s nine-s zero-s">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever seconds four-s five-s six-s eight-s nine-s zero-s">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever seconds one-s two-s three-s four-s seven-s eight-s nine-s zero-s">
                 
               </div>
-              <div class="m-lever">
+              <div class="m-lever seconds two-s three-s four-s five-s six-s eight-s nine-s">
                 
               </div>
-              <div class="l-lever">
+              <div class="l-lever seconds two-s six-s eight-s zero-s">
                 
               </div>
-              <div class="r-lever">
+              <div class="r-lever seconds one-s three-s four-s five-s six-s seven-s eight-s nine-s zero-s">
                 
               </div>
-              <div class="b-lever">
+              <div class="b-lever seconds two-s three-s five-s six-s eight-s nine-s zero-s">
                 
               </div>
           </div>
       </div>
         <script>
-       var currentDate,
-          currentHours,
-          currentMinutes,
-          currentSeconds,
-          hours = [],
-          minutes = [],
-          seconds = [];
-            
+           var currentDate,
+              currentHours,
+              currentMinutes,
+              currentSeconds,
+              hours = [],
+              minutes = [],
+              seconds = [];
+           const interval = setInterval(function() {
+              currentDate = new Date();
+              currentHours = currentDate.getHours();
+              if (currentHours < 10) {
+                currentHours = '0' + currentHours;
+              }
+              currentMinutes = currentDate.getMinutes();
+              if (currentMinutes < 10) {
+                currentMinutes = '0' + currentMinutes;
+              }
+              currentSeconds = currentDate.getSeconds();
+              if (currentSeconds < 10) {
+                currentSeconds = '0' + currentSeconds;
+              }
+
+
+            document.getElementById('time').innerHTML = ""+currentHours+" : "+currentMinutes+" : "+currentSeconds+" ";
+               var x = document.getElementsByClassName("hours");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "rgba(30,30,30,1)";
+                }
+               var x = document.getElementsByClassName("minutes");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "rgba(30,30,30,1)";
+                }
+               var x = document.getElementsByClassName("seconds");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "rgba(30,30,30,1)";
+                }
+              if (currentHours%10 == 0) {
+                var y = document.getElementsByClassName("zero-h");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes%10 == 0) {
+                var y = document.getElementsByClassName("zero-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 0) {
+                var y = document.getElementsByClassName("zero-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours%10 == 1) {
+                var y = document.getElementsByClassName("one-h");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes%10 == 1) {
+                var y = document.getElementsByClassName("one-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 1) {
+                var y = document.getElementsByClassName("one-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours%10 == 2) {
+                var y = document.getElementsByClassName("two-h");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes%10 == 2) {
+                var y = document.getElementsByClassName("two-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 2) {
+                var y = document.getElementsByClassName("two-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours%10 == 3) {
+                var y = document.getElementsByClassName("three-h");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes%10 == 3) {
+                var y = document.getElementsByClassName("three-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 3) {
+                var y = document.getElementsByClassName("three-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours%10 == 4) {
+                var y = document.getElementsByClassName("four-h");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes%10 == 4) {
+                var y = document.getElementsByClassName("four-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 4) {
+                var y = document.getElementsByClassName("four-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours%10 == 5) {
+                var y = document.getElementsByClassName("five-h");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes%10 == 5) {
+                var y = document.getElementsByClassName("five-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 5) {
+                var y = document.getElementsByClassName("five-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours%10 == 6) {
+                var y = document.getElementsByClassName("six-h");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes%10 == 6) {
+                var y = document.getElementsByClassName("six-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 6) {
+                var y = document.getElementsByClassName("six-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours%10 == 7) {
+                var y = document.getElementsByClassName("seven-h");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes%10 == 7) {
+                var y = document.getElementsByClassName("seven-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 7) {
+                var y = document.getElementsByClassName("seven-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours%10 == 8) {
+                var y = document.getElementsByClassName("eight-h");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes%10 == 8) {
+                var y = document.getElementsByClassName("eight-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 8) {
+                var y = document.getElementsByClassName("eight-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours%10 == 9) {
+                var y = document.getElementsByClassName("nine-m");
+                var z;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds%10 == 9) {
+                var y = document.getElementsByClassName("nine-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentHours < 10) {
+                var x = document.getElementsByClassName("left-h");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes < 10) {
+                var x = document.getElementsByClassName("left-m");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds < 10) {
+                var y = document.getElementsByClassName("left-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+
+              if (currentHours >= 10 && currentHours < 20) {
+                var x = document.getElementsByClassName("ten-h");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes >= 10 && currentMinutes < 20) {
+                var x = document.getElementsByClassName("ten-m");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds >= 10 && currentSeconds < 20) {
+                var y = document.getElementsByClassName("ten-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+
+              if (currentHours >= 20 && currentHours < 30) {
+                var x = document.getElementsByClassName("twenty-h");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes >= 20 && currentMinutes < 30) {
+                var x = document.getElementsByClassName("twenty-m");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds >= 20 && currentSeconds < 30) {
+                var y = document.getElementsByClassName("twenty-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes >= 30 && currentMinutes < 40) {
+                var x = document.getElementsByClassName("thirty-m");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds >= 30 && currentSeconds < 40) {
+                var y = document.getElementsByClassName("thirty-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes >= 40 && currentMinutes < 50) {
+                var x = document.getElementsByClassName("forty-m");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds >= 40 && currentSeconds < 50) {
+                var y = document.getElementsByClassName("forty-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentMinutes >= 50 && currentMinutes < 60) {
+                var x = document.getElementsByClassName("fifty-m");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.backgroundColor = "chartreuse";
+                }
+              }
+              if (currentSeconds >= 50 && currentSeconds < 60) {
+                var y = document.getElementsByClassName("fifty-s");
+                var i;
+                for (z = 0; z < y.length; z++) {
+                  y[z].style.backgroundColor = "chartreuse";
+                }
+              }
+           }, 1000);
         </script>
     </body>
 </html>
